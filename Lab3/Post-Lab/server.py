@@ -19,6 +19,7 @@ while True:
         m = m.decode('utf-8')
         if m == '.':
             conSocket.close()
+            print(cAdd, ' disconnected from server')
             break
         else:
             strlen = len(m)
